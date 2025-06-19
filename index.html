@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>PONG Final - Atari</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>PONG Atari 🎮</h1>
+  <div class="scoreboard">
+    <span id="playerScore">0</span> - <span id="aiScore">0</span>
+  </div>
+  <div class="controls">
+    <label>Dificultad:
+      <select id="difficulty">
+        <option value="2">Fácil</option>
+        <option value="4" selected>Medio</option>
+        <option value="6">Difícil</option>
+      </select>
+    </label>
+    <button onclick="resetGame()">Reiniciar</button>
+  </div>
+  <div id="winnerMessage"></div>
+  <canvas id="gameCanvas" width="800" height="400"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
