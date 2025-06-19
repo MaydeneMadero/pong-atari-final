@@ -1,0 +1,33 @@
+Usuario: ¿Puedes ayudarme a crear el juego Pong en HTML, CSS y JavaScript desde cero?
+
+IA: Por supuesto. Vamos a usar HTML para la estructura básica con un <canvas>, CSS para el estilo visual tipo retro, y JavaScript para la lógica del juego. Comenzaremos creando tres archivos: index.html, style.css y script.js. ¿Quieres que te dé el contenido inicial?
+
+---
+
+Usuario: Sí, pero quiero que el juego tenga movimiento, una pelota, paletas, y se reinicie si alguien anota.
+
+IA: Entendido. En el script.js implementaremos variables para la pelota, velocidad y posición, y programaremos la detección de colisiones con las paletas. Si la pelota se sale por el borde izquierdo o derecho, actualizaremos el puntaje y reiniciaremos su posición al centro.
+
+---
+
+Usuario: Ahora quiero que la IA rival también juegue y pueda perder.
+
+IA: Muy bien. Vamos a programar una paleta automática que siga la pelota con cierta velocidad. También ajustaremos la dificultad haciendo que la IA tenga distintos niveles de respuesta: lenta (fácil), media y rápida (difícil).
+
+---
+
+Usuario: ¿Y cómo hago para que el juego termine al llegar a 7 puntos?
+
+IA: Añadiremos una condición que verifique si algún jugador llega a 7 puntos. En ese caso, detendremos el movimiento de la pelota y mostraremos un mensaje en pantalla con el ganador. También colocaremos un botón para reiniciar la partida.
+
+---
+
+Usuario: Finalmente quiero que el diseño sea llamativo, como un arcade de Atari.
+
+IA: Para eso, aplicaremos CSS con fondo negro, bordes verdes brillantes tipo neón, una fuente monoespaciada, y animaciones simples. El marcador será visible y centrado arriba del canvas.
+
+---
+
+Usuario: ¿Cómo subo todo esto a GitHub y registro el avance paso a paso?
+
+IA: Te ayudaré a usar Git. Iniciamos el repositorio con `git init`, y por cada avance importante (estructura, movimiento, IA, marcador, diseño, dificultad...), haces un commit con `git commit -m "mensaje descriptivo"`. Luego conectas a GitHub con `git remote add origin` y subes con `git push -u origin main`.
